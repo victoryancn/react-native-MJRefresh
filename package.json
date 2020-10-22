@@ -1,6 +1,6 @@
 {
   "name": "react-native-mjrefresh",
-  "version": "0.7.0",
+  "version": "0.7.1-0",
   "description": "",
   "main": "MJRefresh.js",
   "scripts": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/react-native-studio/react-native-MJRefresh#readme",
   "dependencies": {
-    "prop-types":"*"
+    "prop-types": "*"
   }
 }
