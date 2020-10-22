@@ -3,7 +3,7 @@ import {
     findNodeHandle,
     NativeModules,
     Platform,
-    ListView,
+    FlatList,
 } from 'react-native';
 import MJScrollView from './MJScrollView'
 const RCTMJScrollViewManager = NativeModules.MJScrollViewManager;
@@ -12,7 +12,7 @@ var DEFAULT_INITIAL_ROWS = 10;
 var DEFAULT_SCROLL_RENDER_AHEAD = 1000;
 var DEFAULT_END_REACHED_THRESHOLD = 1000;
 
-class MJListView extends ListView {
+class MJListView extends FlatList {
     static defaultProps = {
         initialListSize: DEFAULT_INITIAL_ROWS,
         pageSize: DEFAULT_PAGE_SIZE,
