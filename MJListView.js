@@ -37,4 +37,4 @@ class MJListView extends FlatList {
     }
 }
 
-module.exports = Platform.OS === 'ios' ? MJListView : ListView;
+module.exports = Platform.OS === 'ios' ? MJListView : FlatList;
